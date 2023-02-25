@@ -6,8 +6,17 @@ namespace FileUpload.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
-
+            ViewBag.Title = "Home";
+            return View();
+        }
+        public ActionResult PostBack()
+        {
+            ViewBag.Title = "PostBack";
+            return View();
+        }
+        public ActionResult Ajax()
+        {
+            ViewBag.Title = "Ajax";
             return View();
         }
     }
